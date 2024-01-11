@@ -1,0 +1,45 @@
+LogoPi blockexplorerToggle navigation
+Search by Account / Transaction / ...
+TRANSACTION BBF9B9A11CC0A051F64AAEAF821ABAE95A0707147856B5E0C619D68508C36FB5JSON
+Time	1/11/2024 21:45 PM
+Fee	0.01 π
+Block	12606868
+Memo (None)	
+Operations (1)
+Account	Operation	Time
+GBXG	Pay 100 π to GBXG	1 min ago	JSON
+Export data as CSV
+githubSource Code
+×Close
+https://api.mainnet.minepi.com/operations/54146085764993025
+{
+  "_links": {
+    "self": {
+      "href": "https://api.mainnet.minepi.com/operations/54146085764993025"
+    },
+    "transaction": {
+      "href": "https://api.mainnet.minepi.com/transactions/bbf9b9a11cc0a051f64aaeaf821abae95a0707147856b5e0c619d68508c36fb5"
+    },
+    "effects": {
+      "href": "https://api.mainnet.minepi.com/operations/54146085764993025/effects"
+    },
+    "succeeds": {
+      "href": "https://api.mainnet.minepi.com/effects?order=desc&cursor=54146085764993025"
+    },
+    "precedes": {
+      "href": "https://api.mainnet.minepi.com/effects?order=asc&cursor=54146085764993025"
+    }
+  },
+  "id": "54146085764993025",
+  "paging_token": "54146085764993025",
+  "transaction_successful": true,
+  "source_account": "GDBL6NGOF5R5B6ZDXXE5WZN5OO4QNIFG63T2K4UAOEZN2JWBHJZB2MTI",
+  "type": "payment",
+  "type_i": 1,
+  "created_at": "2024-01-11T21:45:43Z",
+  "transaction_hash": "bbf9b9a11cc0a051f64aaeaf821abae95a0707147856b5e0c619d68508c36fb5",
+  "asset_type": "native",
+  "from": "GDBL6NGOF5R5B6ZDXXE5WZN5OO4QNIFG63T2K4UAOEZN2JWBHJZB2MTI",
+  "to": "GBXGUR3A56OIEEJQMFR56BTSN7FGT6DF75TAB2GVCDVMPYLM4ZL2QBAW",
+  "amount": "100.0000000"
+}
